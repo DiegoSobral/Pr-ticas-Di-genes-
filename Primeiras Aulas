@@ -1,0 +1,117 @@
+<!doctype html>
+<html dir="ltr" lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <title>Exemplo Diógenes</title>
+</head>
+
+<body>
+  <h1>Destacando um texto.</h1>
+  <p> <b>Este é um texto em negrito</b><br>
+    <i>
+      <font color="blue" size=5>Este é um texto em itálico, azul e tamanho 5 </font>
+    </i><br>
+    <strong>
+      <font color="purple" size=10>Este é um texto com strong, roxo e tamanho 10</font>
+    </strong><br>
+    <small>Este é um texto com small</small><br>
+    <em>Este é um texto com enfatizado</em><br>
+    <del>Este é um texto deletado</del><br>
+    <big>Este é um texto com big</big><br>
+  </p>
+  <h2>Conteúdos da Aula</h2>
+  <ol>
+    <a href="https://pt.wikipedia.org/wiki/HTML">
+      <li style="background-color: rgb(238, 255, 0);">HTML</li>
+    </a>
+    <ul>
+      <li>Tags</li>
+      <li>Estruturas</li>
+    </ul>
+    <a href="https://en.wikipedia.org/wiki/CSS">
+      <li style="background-color: rgb(238, 255, 0);">CSS</li>
+    </a>
+    <ul>
+      <li>Personalização</li>
+    </ul>
+    <a href="https://pt.wikipedia.org/wiki/JavaScript">
+      <li style="background-color: rgb(238, 255, 0);">JavaScript</li>
+    </a>
+    <ul>
+      <li>Interações</li>
+      <li>Aplicações</li>
+    </ul>
+  </ol>
+
+  <h3>Competencias</h3>
+  <ul>
+    <li>Produzir páginas</li>
+    <li>Personalizar páginas</li>
+    <li>Criar interações</li>
+  </ul>
+  <dl>
+    <dt><b>Método de Avaliação</b></dt>
+    <dd>Produzir páginas</dd>
+    <dd>Personalizar páginas</dd>
+    <dd>Criar interações</dd>
+  </dl>
+  <img style="background-position: center;"
+    src="file:///C:/Users/diego/OneDrive/%C3%81rea%20de%20Trabalho/sem-physics.jpg">
+  <map name="workmap">
+    <area shape="poly" title="Einstein" coords="1000,500,446,351" alt="Einstein"
+      href="https://app.uff.br/riuff/bitstream/handle/1/11224/Bernardo%20Fran%C3%A7a%20de%20Aguiar.pdf?sequence=1&isAllowed=y#:~:text=A%20teoria%20da%20relatividade%20geral,propriedade%20geom%C3%A9trica%20do%20espa%C3%A7o%2Dtempo.">
+  </map>
+
+  <h1>Músicas</h1>
+  <ul>
+    <li>Musica de fadinha 1</li><audio controls autoplay>
+      <source
+        src="https://static.wikia.nocookie.net/senkizesshousymphogear/images/8/8a/Sforzando_no_Zanky%C5%8D.ogg/revision/latest?cb=20200206143145">
+    </audio>
+    <li>Musica de fadinha 2</li><audio controls autoplay>
+      <source
+        src="https://static.wikia.nocookie.net/senkizesshousymphogear/images/8/8a/Sforzando_no_Zanky%C5%8D.ogg/revision/latest?cb=20200206143145">
+    </audio>
+    <li>Musica de fadinha 3</li><audio controls autoplay>
+      <source
+        src="https://static.wikia.nocookie.net/senkizesshousymphogear/images/8/8a/Sforzando_no_Zanky%C5%8D.ogg/revision/latest?cb=20200206143145">
+    </audio>
+    <li>Musica de fadinha 4</li><audio controls autoplay>
+      <source
+        src="https://static.wikia.nocookie.net/senkizesshousymphogear/images/8/8a/Sforzando_no_Zanky%C5%8D.ogg/revision/latest?cb=20200206143145">
+    </audio>
+    <li>Musica de fadinha 5</li><audio controls autoplay>
+      <source
+        src="https://static.wikia.nocookie.net/senkizesshousymphogear/images/8/8a/Sforzando_no_Zanky%C5%8D.ogg/revision/latest?cb=20200206143145">
+    </audio>
+    <li>Musica de fadinha 6</li><audio controls autoplay>
+      <source
+        src="https://static.wikia.nocookie.net/senkizesshousymphogear/images/8/8a/Sforzando_no_Zanky%C5%8D.ogg/revision/latest?cb=20200206143145">
+    </audio>
+    <li>Musica de fadinha 7</li><audio controls autoplay>
+      <source
+        src="https://static.wikia.nocookie.net/senkizesshousymphogear/images/8/8a/Sforzando_no_Zanky%C5%8D.ogg/revision/latest?cb=20200206143145">
+    </audio>
+    <li>Musica de fadinha 8</li><audio controls autoplay>
+      <source
+        src="https://static.wikia.nocookie.net/senkizesshousymphogear/images/8/8a/Sforzando_no_Zanky%C5%8D.ogg/revision/latest?cb=20200206143145">
+    </audio>
+    <li>Musica de fadinha 9</li><audio controls autoplay>
+      <source
+        src="https://static.wikia.nocookie.net/senkizesshousymphogear/images/8/8a/Sforzando_no_Zanky%C5%8D.ogg/revision/latest?cb=20200206143145">
+    </audio>
+    <li>Musica de fadinha 10</li><audio controls autoplay>
+      <source
+        src="https://static.wikia.nocookie.net/senkizesshousymphogear/images/8/8a/Sforzando_no_Zanky%C5%8D.ogg/revision/latest?cb=20200206143145">
+    </audio>
+  </ul>
+
+  <h1>Vídeo</h1>
+  <video width="320" height="240" controls>
+    <source src="C:\Users\diego\OneDrive\Área de Trabalho\Fire Explorer\Videos Pascom\Via Sacra e 7 dores\Via Sacra\MVI_5703.MP4" type="video/mp4">
+  </video>
+  <iframe width="900" height="506" src="https://www.youtube.com/embed/E8g2c_bJesA" title="O que vai acontecer quando a Via Láctea e Andrômeda COLIDIREM?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+
+</html>
