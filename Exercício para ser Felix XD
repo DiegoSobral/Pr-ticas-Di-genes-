@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="./icone-page.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Css.css//"> "Desativado"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício pra ser feliz XD</title>
+</head>
+
+<body>
+    <hr class="hr">
+    </hr>
+    <div class="login-page">
+        <div class="form">
+            <h1 class="h2">Formulário</h1>
+            <h3>Dados Pessoais</h3>
+            <form class="login-form">
+                <input type="text" placeholder="Nome" id="nome" required minlength="2" maxlength="30" />
+                <input type="text" placeholder="Endereço" id="text" required minlength="30" maxlength="50" />
+                <input type="text" placeholder="Cidade" id="text" required minlength="2" maxlength="15" />
+                <label class="label" for="Estado: ">
+                    <select class="select" id="Estado: >
+                                <optionvalue="">Estado: </option>
+                                <option selected disabled value="">Estados</option>
+                                <option>Estado 1</option>
+                                <option>Estado 2</option>
+                                <option>Estado 3</option>
+                                <option>Estado 4</option>
+                                <option>Estado 5</option>
+                                <option>Estado 6</option>
+                            </select>
+                        </label>
+            </form><br>
+
+            <h2>Dados Profissionais</h2>
+            <form class="login-form">
+                <h3>Natureza do Cargo</h3>
+                <h4>Gerência <input type="radio"></input> </h4> 
+                <h4>Financeiro <input type="radio"></input> </h4> 
+                <h4>Recepção <input type="radio"></input> </h4> 
+                <h4>Administrativo <input type="radio"></input> </h4> 
+                <h4>Jurídico <input type="radio"></input> </h4> <br>
+                <h3>Área de Interesse</h3>
+                <h4>Computação <input type="checkbox"></input> </h4> 
+                <h4>Biologia <input type="checkbox"></input> </h4> 
+                <h4>Meio Ambiente <input type="checkbox"></input> </h4> 
+                <h4>Engenharia <input type="checkbox"></input> </h4> 
+                <h4>História <input type="checkbox"></input> </h4> <br>
+                <br>
+                <br>
+                <input type="text" placeholder="Mini-Currículo" id="Mini-Currículo" required minlength="50" maxlength="150" />
+            </form>
+            <input class="input2" type="submit" placeholder="Enviar"></input>
+            <input class="input2" type="reset" placeholder="Redefinir"></input>
+        </div>
+    </div>
+</body>
+
+</html>
