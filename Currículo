@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./Currículo.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Currículo</title>
+</head>
+<body>
+	<h1>Currículo</h1>
+
+	<div class="w3-container">
+		<h2>Dados Pessoais</h2>
+		<ul>
+			<li><strong>Nome:</strong> Diego Ribeiro Da Silva Sobral</li>
+			<li><strong>Email:</strong> diego.rssobral@gmail.com</li>
+			<li><strong>Telefone:</strong> (81) 988672623</li>
+			<li><strong>Endereço:</strong> Rua Torres Homem nº 633</li>
+		</ul>
+	</div>
+
+	<div class="w3-container">
+		<h2>Formação Acadêmica</h2>
+		<ul>
+			<li><strong>Graduação:</strong> Unit: Análise e Desenvolvimento de Sistemas - Em Andamento</li>
+			<li><strong>Graduação:</strong> Ufpe: Física Bacharelado - Em Andamento</li>
+		</ul>
+	</div>
+
+	<div class="w3-container">
+		<h2>Experiência Profissional</h2>
+		<ul>
+			<li>
+				<strong>Empresa A</strong><br>
+				Cargo: Desenvolvedor<br>
+				Período: Janeiro de 2018 - Presente<br>
+				Principais atividades: Desenvolvimento de sistemas web utilizando PHP e MySQL.
+			</li>
+			<li>
+				<strong>Empresa B</strong><br>
+				Cargo: Analista de Sistemas<br>
+				Período: Janeiro de 2016 - Dezembro de 2017<br>
+				Principais atividades: Análise e desenvolvimento de sistemas desktop em Java.
+			</li>
+		</ul>
+	</div>
+
+</body>
+</html>
