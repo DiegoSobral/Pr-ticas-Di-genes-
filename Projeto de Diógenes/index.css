@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap);
+
+body {
+    margin: 0px;
+    background: src="./Fundo.jpg";
+    font-family: "Sora", sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.h1 {
+    position: relative;
+    margin: 20px;
+    width: 146px;
+    height: 60px;
+    top: 0px;
+    left: 110px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 50px;
+    color: #000000;
+    line-height: 20px;
+}
+
+.hr {
+    position: relative;
+    width: auto;
+    height: 90px;
+    top: -8px;
+    border: none;
+    background: #6FC519;
+    opacity: 0.8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.page {
+    width: 500px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #ffffff00;
+    max-width: 400px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    align-items: center;
+}
+
+.form input {
+    font-family: "Sora", sans-serif;
+    outline: none;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+    width: 400px;
+    margin: 0 0 15px;
+    padding: 22px;
+    font-size: 16px;
+}
+
+.form button {
+    top: 800px;
+    font-family: "Sora", sans-serif;
+    text-transform: uppercase;
+    outline: none;
+    background: #191919;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 400px;
+    height: 64px;
+    padding: 22px;
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
+
+#btn-entrar:hover {
+    transition: 0.9s;
+    cursor: pointer;
+    background: #767676;
+}
+
+.form .message {
+    margin: 10px 0px 20px 0px;
+    color: #000000;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: rgb(0, 66, 198);
+    text-decoration: underline;
+}
+
+#cadastre-se {
+    position: absolute;
+    top: 303px;
+    left: 230px;
+}
+
+#cadastro:hover,
+#esqueceu-senha:hover {
+    transition: 0.8s;
+    color: blueviolet;
+}
+
+fundo {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    align-self: center;
+}

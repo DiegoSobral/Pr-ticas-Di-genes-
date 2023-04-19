@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="./icone-page.png" type="image/x-icon">
+    <link rel="stylesheet" href="./edicao-produto.css">
+    <script src="https://kit.fontawesome.com/0f251f1c56.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Produto</title>
+</head>
+
+<body style="background-image: url(./Fundo.jpg)">
+
+    <hr class="hr">
+    </hr>
+    <div class="login-page">
+        <div class="form">
+            <button onclick="voltar()" id="btn-voltar"><i class="fa-solid fa-arrow-left"></i> Voltar</button>
+            <h1 class="h4">Editar Produto</h1>
+            <form class="login-form">
+                <input id="nome-produto" type="textarea" placeholder="Nome" required />
+                <input id="valor-produto" type="text" placeholder="Valor Total" required />
+                <input id="qtde" type="number" placeholder="Quantidade" min="0" required>
+                <label class="label" for="Tipo de Flor">
+                    <select class="select" id="Tipo de Flor>
+                                <optionvalue="">Tipo de Flor</option>
+                                <option selected disabled value="">Tipo de Flor</option>
+                                <option>Eletrodomésticos</option>
+                                <option>Acessórios de Tecnologia</option>
+                                <option>Ar e Ventilação</option>
+                                <option>Cama, Mesa e Banho</option>
+                                <option>Celular e Smartphone</option>
+                                <option>Móveis</option>
+                    </select>
+                </label>
+                    <button id=" btn-save-alteracoes" onclick="edicaoProduto()">Salvar Alterações</button>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="./listar.js"></script>
+</body>
+
+</html>

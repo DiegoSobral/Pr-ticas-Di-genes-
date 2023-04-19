@@ -1,0 +1,268 @@
+@import url(https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap);
+
+body {
+    margin: 0px;
+    background: #d6d5da86;
+    font-family: "Sora", sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.page {
+    width: 500px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #ffffff00;
+    max-width: 400px;
+    margin: 0 auto -70px;
+    padding: 45px;
+    align-items: center;
+}
+
+.hr {
+    position: relative;
+    width: auto;
+    height: 90px;
+    top: -8px;
+    border: none;
+    background: #6FC519;
+    opacity: 0.8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nome1 {
+    position: absolute;
+    width: 115px;
+    height: 18px;
+    left: 70px;
+    top: 405px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #222222;
+}
+
+.nome2 {
+    position: absolute;
+    width: 42px;
+    height: 18px;
+    left: 70px;
+    top: 429px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #575757;
+}
+
+.nome3 {
+    position: absolute;
+    width: 115px;
+    height: 18px;
+    left: 70px;
+    top: 525px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #222222;
+}
+
+.nome4 {
+    position: absolute;
+    width: 60px;
+    height: 18px;
+    left: 70px;
+    top: 549px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #575757;
+}
+
+.retangle-small {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 420px;
+    top: 405px;
+    background: rgba(111, 197, 25, 0.8);
+    border-radius: 25px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.retangle-big {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 380px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+}
+
+.retangle-small1 {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 420px;
+    top: 525px;
+    background: rgba(111, 197, 25, 0.8);
+    border-radius: 25px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.retangle-big1 {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+}
+
+.h3 {
+    position: relative;
+    width: 200px;
+    height: 30px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+.h4 {
+    position: relative;
+    width: 379px;
+    height: 53px;
+    align-items: center;
+    top: 40px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 53px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+.h5 {
+    position: absolute;
+    width: 51px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    text-shadow: 0px 3px 6px #FFFFFF;
+}
+
+.form input {
+    align-self: center;
+    display: inline-flex;
+    font-family: "Sora", sans-serif;
+    outline: 0;
+    background: #ffffff;
+    width: 470px;
+    border: none;
+    border-radius: 25px;
+    margin: 0 0 15px;
+    padding: 18px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#btn-lupa {
+    background: #fffdfd;
+    margin: -70px 415px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 19px;
+    display: inline;
+}
+
+#btn-mais {
+    display: block;
+    outline: none;
+    background: #e8e7eb86;
+    color: black;
+    width: 55px;
+    border: none;
+    border-radius: 45px;
+    padding: 8px;
+    font-size: 17px;
+}
+
+h3 {
+    font-size: 16px;
+    margin: -31px 58px;
+}
+
+.list {
+    position: absolute;
+    top: 300px;
+}
+
+#btn-lista {
+    display: block;
+    outline: none;
+    background: #e8e7eb86;
+    color: black;
+    width: 55px;
+    border: none;
+    border-radius: 45px;
+    padding: 8px;
+    font-size: 17px;
+}
+
+#listar-produtos {
+    font-size: 16px;
+    margin: -31px 58px;
+}
+
+#btn-lupa:hover,
+#btn-mais:hover,
+#btn-sair,
+#btn-lista {
+    cursor: pointer;
+}
+
+#btn-sair {
+    position: absolute;
+    margin: -70px 1200px -10px;
+    border: none;
+    outline: none;
+    background: #292C33;
+}
+
+#btn-mais:hover {
+    transition: 0.8s;
+    color: rgb(11, 129, 158);
+}
+
+#btn-lista:hover {
+    transition: 0.8s;
+    color: #637399;
+}
