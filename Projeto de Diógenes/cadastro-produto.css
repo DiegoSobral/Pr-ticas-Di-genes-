@@ -1,148 +1,193 @@
-@import url(https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap);
-
-body {
-    margin: 0px;
-    background: #d6d5da86;
-    font-family: "Sora", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
-    overflow-y: inherit;
+.frame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
-.h1 {
-    position: relative;
-    margin: 20px;
-    width: 146px;
-    height: 60px;
-    top: 0px;
-    left: 110px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 50px;
-    color: #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
-    line-height: 20px;
+.frame .cadastro-de-produto-wrapper {
+  border: 1px none;
+  height: 720px;
+  width: 1280px;
 }
 
-.h2 {
-    position: relative;
-    margin: 20px;
-    width: 500px;
-    height: 60px;
-    top: 0px;
-    left: 73px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 40px;
-    color: #000000;
-    line-height: 20px;
+.frame .cadastro-de-produto {
+  background-color: #f6f5fc;
+  height: 720px;
+  overflow: hidden;
 }
 
-.hr {
-    position: relative;
-    width: auto;
-    height: 90px;
-    top: -8px;
-    border: none;
-    background: #6FC519;
-    opacity: 0.8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+.frame .overlap {
+  height: 720px;
+  position: relative;
+  width: 1292px;
 }
 
-.image {
-    position: absolute;
-    width: 280px;
-    top: -7px;
-    left: 536px;
+.frame .group {
+  height: 720px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1292px;
 }
 
-.page {
-    width: 500px;
-    padding: 8% 0 0;
-    margin: auto;
+.frame .overlap-group {
+  background-image: url(./thumb-1920-594870-3.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 720px;
+  position: relative;
+  width: 1280px;
 }
 
-.form {
-    top: 10px;
-    position: relative;
-    z-index: 1;
-    background: #ffffff00;
-    max-width: 400px;
-    margin: 0 auto 100px;
-    padding: 45px;
-    align-items: center;
+.frame .text-wrapper {
+  color: #222222;
+  font-family: "Sora-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  left: 445px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 147px;
 }
 
-.form input {
-    font-family: "Sora", sans-serif;
-    outline: 0;
-    background: #ffffff;
-    width: 400px;
-    height: 60px;
-    border: none;
-    border-radius: 10px;
-    margin: 0 0 15px;
-    padding: 25px;
-    box-sizing: border-box;
-    font-size: 16px;
+.frame .img {
+  height: 17px;
+  left: 444px;
+  position: absolute;
+  top: 120px;
+  width: 24px;
 }
 
-button {
-    position: absolute;
-    top: 430px;
-    left: 45px;
-    font-family: "Sora", sans-serif;
-    outline: none;
-    background: #000000;
-    width: 400px;
-    border: none;
-    border-radius: 10px;
-    height: 50px;
-    color: #FFFFFF;
-    font-size: 16px;
-    line-height: 3px;
+.frame .div {
+  color: #000000;
+  font-family: "Sora-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 474px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 119px;
 }
 
-#btn-save-alteracoes:hover {
-    background: #767676;
-    transition: 0.8s;
-    cursor: pointer;
+.frame .div-wrapper {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px #0000000a;
+  height: 52px;
+  left: 446px;
+  position: absolute;
+  top: 201px;
+  width: 389px;
 }
 
-.select {
-    font-family: 'Sora';
-    font-size: 16px;
-    border: none;
-    outline: none;
-    width: 400px;
-    padding: 18px;
-    border-radius: 4px;
-    color: #767676;
+.frame .text-wrapper-2 {
+  color: #bcbcbc;
+  font-family: "Sora-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 16px;
 }
 
-.label {
-    color: #292C33;
-    font-size: 16px;
-    font-family: 'Sora';
-    background: white;
-    line-height: 70px;
-    border-radius: 10px;
+.frame .overlap-2 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px #0000000a;
+  height: 52px;
+  left: 446px;
+  position: absolute;
+  top: 269px;
+  width: 389px;
 }
 
-#btn-voltar {
-    top: -10px;
-    background-color: Transparent;
-    width: 90px;
-    font-size: 18px;
-    color: #000000;
-    border: none;
-    outline: none;
+.frame .text-wrapper-3 {
+  color: #bcbcbc;
+  font-family: "Sora-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 16px;
 }
 
-#btn-voltar:hover {
-    cursor: pointer;
-    transition: 0.6s;
+.frame .overlap-3 {
+  border-radius: 10px;
+  height: 52px;
+  left: 446px;
+  position: absolute;
+  top: 412px;
+  width: 389px;
+}
+
+.frame .rectangle {
+  background-color: #191919;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px #0000000a;
+  height: 52px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 389px;
+}
+
+.frame .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Sora-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  left: 154px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 16px;
+}
+
+.frame .overlap-4 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px #0000000a;
+  height: 52px;
+  left: 446px;
+  position: absolute;
+  top: 340px;
+  width: 389px;
+}
+
+.frame .text-wrapper-5 {
+  color: #bcbcbc;
+  font-family: "Sora-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 16px;
+}
+
+.frame .polygon {
+  height: 6px;
+  left: 363px;
+  position: absolute;
+  top: 23px;
+  width: 8px;
+}
+
+.frame .rectangle-2 {
+  background-color: #6fc419cc;
+  box-shadow: 0px 4px 4px #00000040, 0px 4px 4px #00000040;
+  height: 81px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1280px;
 }
