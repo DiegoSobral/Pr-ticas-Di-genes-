@@ -1,0 +1,22 @@
+import React from "react";
+import { TelaDeVendaBuqu } from "./TelaDeVendaBuqu";
+import "./style.css";
+
+export const Frame = () => {
+  return (
+    <div className="frame">
+      <div className="tela-de-venda-buqu-wrapper">
+        <TelaDeVendaBuqu
+          overlapStyle={{
+            width: "1280px",
+          }}
+          style={{
+            left: "-5px",
+            position: "relative",
+            width: "unset",
+          }}
+        />
+      </div>
+    </div>
+  );
+};
