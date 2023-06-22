@@ -1,0 +1,13 @@
+.frame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .tela-principal-user-wrapper {
+  border: 1px none;
+  height: 720px;
+  width: 1280px;
+}
