@@ -1,0 +1,20 @@
+import React from "react";
+import { TelaPrincipalAdmin } from "./TelaPrincipalAdmin";
+import "./style.css";
+
+export const Frame = () => {
+  return (
+    <div className="frame">
+      <div className="tela-principal-admin-wrapper">
+        <TelaPrincipalAdmin
+          overlapStyle={{
+            width: "1280px",
+          }}
+          style={{
+            width: "unset",
+          }}
+        />
+      </div>
+    </div>
+  );
+};
