@@ -1,0 +1,23 @@
+import React from "react";
+import { TelaPrincipalUser } from "./TelaPrincipalUser";
+import "./style.css";
+
+export const Frame = () => {
+  return (
+    <div className="frame">
+      <div className="tela-principal-user-wrapper">
+        <TelaPrincipalUser
+          componentStyle={{
+            width: "1280px",
+          }}
+          overlapStyle={{
+            width: "unset",
+          }}
+          style={{
+            width: "unset",
+          }}
+        />
+      </div>
+    </div>
+  );
+};
