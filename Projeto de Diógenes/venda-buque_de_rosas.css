@@ -1,0 +1,14 @@
+.frame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .tela-de-venda-buqu-wrapper {
+  border: 1px none;
+  height: 720px;
+  overflow-x: hidden;
+  width: 1280px;
+}
